@@ -1,7 +1,7 @@
 # Statics and dynamic
 ![filters](https://i.ibb.co/FnPTPqP/stat0.png)
 
-In this pwn challenge, we are give a statically compiled x64 binary     nd we are asked to find the flag.
+In this pwn challenge, we were give a statically compiled x64 binary     nd we are asked to find the flag.
 
 To solve this i used ROPgadget to construct a ropchain and pwn cyclic to find the offset of the buffer.
 ```sh
