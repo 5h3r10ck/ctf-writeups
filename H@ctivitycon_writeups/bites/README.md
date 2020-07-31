@@ -1,7 +1,7 @@
 # bites
 ![desc](https://i.ibb.co/Z6mbRcQ/bite0.png)
 
-In this challenge we are give a link to a webapp. The only intersting thing we could find is the page parameter wich end up being vulnerable to LFI. the param takes any strings append .php and tries to read it.
+In this challenge we were given a link to a webapp. The only intersting thing we could find is the page parameter wich end up being vulnerable to LFI. the param takes any strings append .php and tries to read it.
 
 Upon playing with the param for abit we found out the location of the flag.
 ![test](https://i.ibb.co/RNbD4nB/bite-test.png)
