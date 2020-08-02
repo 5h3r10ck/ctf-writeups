@@ -171,8 +171,10 @@ if __name__ == "__main__":
 Upon reading the source code of the keylogger, we can conclude that the script collect all the keyboard strokes, save it to the file C:/Users/Mike/Desktop/key.log(which will be deleted after the end of the process) , xor it with a key saved as an environment variable(t3mp) and then send it(after b64 encoding it) through port 1337 to the attacker's C2 server.
 
 Now, we just need to collect different variables used to recover the exfiltrated data. To do this, we extracted the key using envars plugin.
-```l33t > ~/CTFs/inctf > volatility -f Evidence.vmem --profile=Win7SP1x64 envars | tee envars.txt
 ```
+l33t > ~/CTFs/inctf > volatility -f Evidence.vmem --profile=Win7SP1x64 envars | tee envars.txt
+```
+
 ```
 2216 pythonw.exe          0x0000000000304d50 t3mp                           UXpwY1VIbDBhRzl1TWpkY08wTTZYRkI1ZEdodmJqSTNYRk5qY21sd2RITTdRenBjVjJsdVpHOTNjMXh6ZVhOMFpXMHpNanRET2x4WAphVzVrYjNkek8wTTZYRmRwYm1SdmQzTmNVM2x6ZEdWdE16SmNWMkpsYlR0RE9seFhhVzVrYjNkelhGTjVjM1JsYlRNeVhGZHBibVJ2CmQzTlFiM2RsY2xOb1pXeHNYSFl4TGpCY08wTTZYRkJ5YjJkeVlXMGdSbWxzWlhNZ0tIZzROaWxjVG0xaGNDNURUMDA3TGtWWVJUc3UKUWtGVU95NURUVVE3TGxaQ1V6c3VWa0pGT3k1S1V6c3VTbE5GT3k1WFUwWTdMbGRUU0RzdVRWTkQK
 ```
