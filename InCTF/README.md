@@ -1,6 +1,8 @@
 # LOGarithm
-InCTF had some nice forensics challenges. I ended up solving 3 out of the 4. 
-In this writeup, I chose to talk about the LOGarithm challenge, even though its one of the easiest ones, I really enjoyed it.
+InCTF had some nice forensics challenges. I ended up solving 3 out of the 4.
+
+In this writeup, I chose to talk about the LOGarithm challenge, even though its one of the easiest ones, but I really enjoyed it.
+
 ![desc](https://i.ibb.co/d2NHSZn/log.png)
 
 In this challenge, we were given a memory dump of a windows machine and a network traffic capture and we are asked to find the exfiltrated data that was compromised.
