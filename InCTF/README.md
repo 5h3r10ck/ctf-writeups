@@ -5,7 +5,7 @@ In this writeup, I chose to talk about the LOGarithm challenge, even though its 
 
 ![desc](https://i.ibb.co/d2NHSZn/log.png)
 
-In this challenge, we were given a memory dump of a windows machine and a network traffic capture and we are asked to find the exfiltrated data that was compromised.
+In this challenge, we were given a memory dump of a windows machine and a network traffic capture and we are asked to find the exfiltrated data.
 
 We started off by identifying the profile image of the system.
 ![img](https://i.ibb.co/34VFfwc/Screenshot-1.png)
